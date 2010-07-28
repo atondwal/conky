@@ -4,7 +4,7 @@ import os
 import subprocess
 
 # root filesystem
-print "${voffset -2}${color0}${font Poky:size=15}y${font}${color}${offset 6}${voffset -7}Root: ${font Liberation Sans:style=Bold:size=8}${color1}${fs_free_perc /}%${color}${font}"
+print "${voffset -2}${color0}${font Poky:size=15}${font}${color}${offset 6}${voffset -7}Root: ${font Liberation Sans:style=Bold:size=8}${color1}${fs_free_perc /}%${color}${font}"
 print "${voffset 2}${color0}${fs_bar 4,20 /}${color}${offset 8}${voffset -2}F:${color2}${fs_free /}${color} U:${color2}${fs_used /}${color}"
 
 # /home folder (if its a separate mount point)
